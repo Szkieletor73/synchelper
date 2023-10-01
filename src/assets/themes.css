@@ -1,0 +1,22 @@
+:root {
+    --primary: #1C8BFD;
+    --primary-variant: #68A2DF;
+
+    --background: #1C1B21;
+    --surface: #26262D;
+    --border: #26262D;
+    --highlight: rgba(255, 255, 255, 0.16);
+
+    --error: #eb4715;
+    --warn: #f0d01b;
+
+    --on-primary: #fff;
+
+    --on-background: #fff;
+    --on-surface: #fff;
+
+    --on-error: #2b2b2b;
+    --on-warn: #2b2b2b;
+
+    --color-bleed: 3%;
+}

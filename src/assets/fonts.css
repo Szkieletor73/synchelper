@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "NotoSansJP";
+    src: url('./NotoSansJP.ttf');
+}
+
+:root {
+
+    --h1-font: 93px "NotoSansJP";
+
+    --h2-font: 58px "NotoSansJP";
+
+    --h3-font: 47px "NotoSansJP";
+
+    --h4-font: 33px "NotoSansJP";
+
+    --h5-font: 23px "NotoSansJP";
+
+    --h6-font: 19px "NotoSansJP";
+
+    --subtitle1-font: 14px "NotoSansJP";
+
+    --subtitle2-font: 12px "NotoSansJP";
+
+    --body1-font: 14px "NotoSansJP";
+
+    --body2-font: 12px "NotoSansJP";
+
+    --button-font: 14px "NotoSansJP";
+
+    --caption-font: 14px "NotoSansJP";
+
+    --overline-font: 12px "NotoSansJP";
+
+}
+
+h1 {
+    font: var(--h1-font);
+}
+
+h2 {
+    font: var(--h2-font);
+}
+
+h3 {
+    font: var(--h3-font);
+}
+
+h4 {
+    font: var(--h4-font);
+}
+
+h5 {
+    font: var(--h5-font);
+}
+
+h6 {
+    font: var(--h6-font);
+}
+
+.subtitle1 {
+    font: var(--subtitle1-font);
+}
+
+.subtitle2 {
+    font: var(--subtitle2-font);
+}
+
+.body1 {
+    font: var(--body1-font);
+}
+
+.body2 {
+    font: var(--body2-font);
+}
+
+.button {
+    font: var(--button-font);
+    text-transform: uppercase;
+}
+
+.caption {
+    font: var(--caption-font);
+    text-transform: uppercase;
+}
+
+.overline {
+    font: var(--overline-font);
+    text-transform: uppercase;
+}
